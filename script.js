@@ -13,6 +13,14 @@ document.querySelector('.slider-prev').addEventListener('click', function () {
     offset = offset - 256;
     if (offset < 0) {
         offset = 768;
+
+
+
+
+
+
+
+
     }
     sliderLine.style.left = -offset + 'px'
 });
